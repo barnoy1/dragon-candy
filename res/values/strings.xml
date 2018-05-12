@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dragon Candy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    
+	<string name="str_Score">score</string>
+	<string name="str_BestScore">Best score</string>
+    <string name="str_distance">distance</string>
+    <string name="str_checkPoint">check point</string>
+    
+</resources>

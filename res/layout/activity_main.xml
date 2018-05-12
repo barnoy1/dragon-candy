@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainscreen"
+    android:orientation="vertical"
+    tools:context="com.platform.DragonCandy.Screens.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.15" >
+
+        <Space
+            android:id="@+id/Space01"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9.04"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imgPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/play"
+            android:scaleType="fitXY" />
+
+        <Space
+            android:id="@+id/Space02"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9.04"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_weight="0.09" >
+
+        <Space
+            android:id="@+id/textView1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/ImgSound"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="left"
+            android:background="@drawable/sound_on"
+            android:scaleType="fitXY" />
+
+        <Space
+            android:id="@+id/Space03"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/imgMusic"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical|center"
+            android:background="@drawable/music_on"
+            android:scaleType="fitXY" />
+
+        <Space
+            android:id="@+id/Space04"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/ImgViberate"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="right"
+            android:background="@drawable/vibrate_on"
+            android:scaleType="fitXY" />
+
+        <Space
+            android:id="@+id/Space05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+    </LinearLayout>
+
+    
+</LinearLayout>
